@@ -17,7 +17,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "http://localhost:5173",   // <--- replace this
+    origin: "https://virtual-ai-lms-1.onrender.com",   // <--- replace this
     credentials: true,
 }))
 
