@@ -27,7 +27,7 @@ import getAllReviews from './cutsomHooks/getAllReviews'
 import SearchWithAi from './pages/SearchWithAi'
 // import  {ToastConatiner} from 'react-toastify'
 
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://virtual-ai-lms.onrender.com"
 
 const App = () => {
   const { isLoading } = getCurrentUser()
